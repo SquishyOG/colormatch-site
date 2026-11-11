@@ -3,43 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Color Match</title>
-<meta name="description" content="Color Match: a neon lane-runner. Fly through the wall that matches your color.">
-<link rel="stylesheet" href="style.css?v=2">
+<title>Color Match: Neon Dart</title>
+<meta name="description" content="Steer a neon dart down three lanes and fly through the wall that matches your color. 16 worlds, a boss at the end of every one. Coming soon to iPhone and iPad.">
+<meta property="og:title" content="Color Match: Neon Dart">
+<meta property="og:description" content="Fly through the wall that matches your color. 16 worlds, a boss at the end of every one.">
+<meta property="og:image" content="https://squishyog.github.io/colormatch-site/img/share.jpg">
+<meta name="theme-color" content="#07060f">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
-<body>
-<main>
-  <header>
-    <h1 class="logo">COLOR MATCH</h1>
-    <p class="tag">A neon lane-runner. Match your color, fly through the wall.</p>
-    <div class="dots" aria-hidden="true">
-      <span style="background:var(--pink)"></span><span style="background:var(--blue)"></span>
-      <span style="background:var(--gold)"></span><span style="background:var(--green)"></span>
-      <span style="background:var(--violet)"></span>
-    </div>
-  </header>
-  <nav>
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
+<body class="home">
 
-  <div class="card">
-    <p>You're a dart flying down three lanes. Walls of colored sections rush at you: steer into the one
-    that matches your color. Gates change your color, trick walls shift, swap and mirror, and every
-    world ends with a boss that has to be beaten its own way.</p>
-    <ul>
-      <li>16 worlds, each with its own tricks, music and boss family</li>
-      <li>80 bosses and mini-bosses, every one hurt a different way</li>
-      <li>Daily Challenges with streak prizes</li>
-      <li>Endless mode with perks, charms and synergies</li>
-      <li>Dozens of skins to unlock and a Hangar of upgrades</li>
-    </ul>
+<div class="bar">
+  <a class="brand" href="index.html"><img src="img/icon.png" alt="" width="36" height="36">Color Match</a>
+  <span class="links"><a href="support.html">Support</a><a href="privacy.html">Privacy</a></span>
+</div>
+
+<section class="hero">
+  <div class="pitch">
+    <p class="eyebrow">A game by SquishyOG</p>
+    <h1>Fly through<br>your <span class="c1">c</span><span class="c2">o</span><span class="c3">l</span><span class="c4">o</span><span class="c5">r</span>.</h1>
+    <p class="lede">You're a dart in three lanes. Walls come at you fast. One section of each wall
+    is your color: that's the one you go through. That's the whole game, and it gets wild.</p>
+    <p class="soon"><b>Coming soon</b> to iPhone and iPad</p>
   </div>
+  <div class="phones">
+    <img class="ph left" src="img/play.jpg" alt="The dart about to fly through the yellow section of a wall" width="600" height="1304">
+    <img class="ph mid" src="img/boss.jpg" alt="A boss fight: the Leviathan bitten by its own jaws" width="600" height="1304">
+    <img class="ph right" src="img/skins.jpg" alt="Nine skins: a dragon, a phoenix, a kraken and more" width="600" height="1304">
+  </div>
+</section>
 
-  <p class="small">Coming soon to the App Store.</p>
+<section class="row">
+  <img class="ph" src="img/backdraft.jpg" alt="The Firewall boss blasted by its own fire" width="600" height="1304" loading="lazy">
+  <div>
+    <h2>You never shoot a boss.<br>You outsmart it.</h2>
+    <p>There's no fire button. Every boss is beaten with its own tricks: fly its wall of flame
+    without touching it and the fire rushes back. Lead the sea monster's lure away and its jaws
+    snap shut on nothing. Play the Conductor's tune back to it. Tow a black hole under a star.</p>
+    <p>Each of the 16 worlds ends in one, and no two are fought the same way.</p>
+  </div>
+</section>
 
-  <footer>&copy; 2026 SquishyOG &middot; <a href="privacy.html">Privacy policy</a> &middot; <a href="support.html">Support</a></footer>
-</main>
+<section class="row flip">
+  <img class="ph" src="img/tricks.jpg" alt="Portal gates that send the dart to another lane" width="600" height="1304" loading="lazy">
+  <div>
+    <h2>Walls that cheat.</h2>
+    <p>Walls slide sideways at the last second. They swap, mirror, lock, count down and spin.
+    Portals throw you into another lane. Ice makes you slide. A new world means a new trick, and
+    the first level always shows it to you slowly before it's used against you.</p>
+  </div>
+</section>
+
+<section class="row">
+  <img class="ph" src="img/worlds.jpg" alt="The world map: a road of levels leading to a boss" width="600" height="1304" loading="lazy">
+  <div>
+    <h2>Short levels. One more go.</h2>
+    <p>A level is about a minute: a run of walls, then a fight. Lose and you're back in within a
+    second. When the worlds are done there's Endless, which shuffles them together and hands you
+    power-ups as you go, and three new Daily Challenges every morning.</p>
+  </div>
+</section>
+
+<section class="row flip">
+  <img class="ph" src="img/hangar.jpg" alt="The Hangar, where the ship's parts are upgraded" width="600" height="1304" loading="lazy">
+  <div>
+    <h2>Fly a dragon. Or a turtle<br>with a frisbee.</h2>
+    <p>There are dozens of skins and each one is its own little creature or ship, with its own
+    way of moving. Coins from playing buy them, and upgrade your ship in the Hangar: extra
+    lives, shields, and Power Cores that slow time or let you phase through a wall.</p>
+  </div>
+</section>
+
+<section class="facts">
+  <div><b>One finger</b>Slide to steer. That's the only control.</div>
+  <div><b>No forced ads</b>An ad only plays if you tap to watch one for a reward.</div>
+  <div><b>Works offline</b>No account, no sign-up, no connection needed.</div>
+  <div><b>Shapes for every color</b>Each color has its own symbol, so nobody is left guessing.</div>
+</section>
+
+<footer>
+  <p>Questions, bugs, a boss you think is unfair? <a href="support.html">Write to me.</a></p>
+  <p class="small">&copy; 2026 SquishyOG &middot; <a href="privacy.html">Privacy policy</a> &middot; <a href="support.html">Support</a></p>
+</footer>
+
 </body>
 </html>
